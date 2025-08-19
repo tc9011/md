@@ -72,7 +72,7 @@ export const useStore = defineStore(`store`, () => {
   const toggleCountStatus = useToggle(isCountStatus)
 
   // 是否开启段落首行缩进
-  const isUseIndent = useStorage(addPrefix(`use_indent`), false)
+  const isUseIndent = useStorage(addPrefix(`use_indent`), true)
   const toggleUseIndent = useToggle(isUseIndent)
 
   const output = ref(``)

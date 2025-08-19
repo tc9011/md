@@ -3,13 +3,13 @@ import { themeOptions } from '@/config/theme'
 
 export const fontFamilyOptions: IConfigOption[] = [
   {
-    label: `无衬线`,
-    value: `-apple-system-font,BlinkMacSystemFont, Helvetica Neue, PingFang SC, Hiragino Sans GB , Microsoft YaHei UI , Microsoft YaHei ,Arial,sans-serif`,
+    label: `衬线`,
+    value: `Optima-Regular, Optima, PingFangSC-light, PingFangTC-light, 'PingFang SC', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif`,
     desc: `字体123Abc`,
   },
   {
-    label: `衬线`,
-    value: `Optima-Regular, Optima, PingFangSC-light, PingFangTC-light, 'PingFang SC', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif`,
+    label: `无衬线`,
+    value: `-apple-system-font,BlinkMacSystemFont, Helvetica Neue, PingFang SC, Hiragino Sans GB , Microsoft YaHei UI , Microsoft YaHei ,Arial,sans-serif`,
     desc: `字体123Abc`,
   },
   {
@@ -230,13 +230,13 @@ export const legendOptions: IConfigOption[] = [
 ]
 
 export const defaultStyleConfig = {
-  isCiteStatus: false,
+  isCiteStatus: true,
   isMacCodeBlock: true,
   isCountStatus: false,
   theme: themeOptions[0].value,
   fontFamily: fontFamilyOptions[0].value,
   fontSize: fontSizeOptions[2].value,
   primaryColor: colorOptions[0].value,
-  codeBlockTheme: codeBlockThemeOptions[23].value,
+  codeBlockTheme: codeBlockThemeOptions[11].value,
   legend: legendOptions[3].value,
 }
