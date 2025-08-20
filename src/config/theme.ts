@@ -94,7 +94,6 @@ const defaultTheme: Theme = {
       'display': `block`,
       'font-size': `0.9em`,
       'overflow': `auto`,
-      'overflow-scrolling': `touch`,
       'padding-top': `10px`,
       'padding-bottom': `10px`,
       'padding-left': `20px`,
