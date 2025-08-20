@@ -190,7 +190,7 @@ const mpConfig = ref(localStorage.getItem(`mpConfig`)
   ? JSON.parse(localStorage.getItem(`mpConfig`)!)
   : {
       proxyOrigin: ``,
-      appID: ``,
+      appID: `wx91e16010c255d76e`,
       appsecret: ``,
     })
 
@@ -340,7 +340,7 @@ const options = [
   },
 ]
 
-const imgHost = ref(`default`)
+const imgHost = ref(`mp`)
 
 const activeName = ref(`upload`)
 
