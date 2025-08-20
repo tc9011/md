@@ -340,7 +340,7 @@ const options = [
   },
 ]
 
-const imgHost = ref(`default`)
+const imgHost = ref(`mp`)
 
 const activeName = ref(`upload`)
 
