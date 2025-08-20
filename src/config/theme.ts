@@ -80,21 +80,38 @@ const defaultTheme: Theme = {
 
     // 引用
     blockquote: {
-      'font-style': `normal`,
-      'padding': `1em`,
-      'border-left': `4px solid var(--md-primary-color)`,
-      'border-radius': `6px`,
-      'color': `rgba(0,0,0,0.5)`,
-      'background': `var(--blockquote-background)`,
-      'margin-bottom': `1em`,
+      // 'font-style': `normal`,
+      // 'padding': `1em`,
+      // 'border-left': `4px solid var(--md-primary-color)`,
+      // 'border-radius': `6px`,
+      // 'color': `rgba(0,0,0,0.5)`,
+      // 'background': `var(--blockquote-background)`,
+      // 'margin-bottom': `1em`,
     },
 
     // 引用内容
     blockquote_p: {
       'display': `block`,
-      'font-size': `1em`,
-      'letter-spacing': `0.1em`,
-      'color': `hsl(var(--foreground))`,
+      'font-size': `0.9em`,
+      'overflow': `auto`,
+      'overflow-scrolling': `touch`,
+      'padding-top': `10px`,
+      'padding-bottom': `10px`,
+      'padding-left': `20px`,
+      'padding-right': `10px`,
+      'margin-bottom': `20px`,
+      'margin-top': `20px`,
+      'text-size-adjust': `100%`,
+      'line-height': `1.55em`,
+      'font-weight': `400`,
+      'border-radius': `6px`,
+      'color': `#595959`,
+      'font-style': `normal`,
+      'text-align': `left`,
+      'box-sizing': `inherit`,
+      'border-left': `none`,
+      'border': `1px solid RGBA(64, 184, 250, .4)`,
+      'background': `RGBA(64, 184, 250, .1)`,
     },
 
     blockquote_note: {

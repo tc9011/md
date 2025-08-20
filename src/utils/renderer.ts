@@ -238,7 +238,11 @@ export function initRenderer(opts: IOpts): RendererAPI {
 
     blockquote({ tokens }: Tokens.Blockquote): string {
       let text = this.parser.parse(tokens)
-      text = text.replace(/<p .*?>/g, `<p ${styles(`blockquote_p`)}>`)
+      console.log(`**************************`)
+      console.log(text, `t`)
+      console.log(`**************************`)
+      text = text.replace(/<p .*?>/g, `<p ${styles(`blockquote_p`)}><span style="color: RGBA(64, 184, 250, .5); font-size: 34px; line-height: 1; font-weight: 700;">❝</span>`)
+      text = text.replace(/<\/p>/g, `<span style="float: right; color: RGBA(64, 184, 250, .5);">❞</span></p>`)
       return styledContent(`blockquote`, text)
     },
 
